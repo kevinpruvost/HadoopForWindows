@@ -9,7 +9,7 @@
 | Software | Link |
 | --- | --- |
 | Java DK (JDK) | https://www.oracle.com/java/technologies/downloads/#java8 |
-| Hadoop | https://github.com/kevinpruvost/HadoopForWindows/tree/53c7ccbb5950cfd1f1b3f9ae7c63cb9493220017 |
+| Hadoop | https://github.com/kevinpruvost/HadoopForWindows/tree/main |
 
 <aside>
 ⚠️ Once you downloaded JDK and Hadoop, install these files wherever you want but keep in mind the location of these folders.
