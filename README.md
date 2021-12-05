@@ -1,20 +1,23 @@
 # HadoopForWindows
 
-![1280px-Hadoop_logo.svg.png](readme_img/1280px-Hadoop_logo.svg.png)
+<p align="center">
+  <a href="https://kevinpruvost.github.io/portfolio/" target="_blank">
+    <img src="readme_img/1280px-Hadoop_logo.svg.png" href="https://hadoop.apache.org/" width=800/>
+  </a>
+</p>
 
-## Installation
+# Installation
 
-### Download
+## Download
 
 | Software | Link |
-| --- | --- |
+| ------------- | ---- |
 | Java DK (JDK) | https://www.oracle.com/java/technologies/downloads/#java8 |
-| Hadoop | https://github.com/kevinpruvost/HadoopForWindows/tree/main |
+| Hadoop        | https://github.com/kevinpruvost/HadoopForWindows/tree/main |
 
 <aside>
 ⚠️ Once you downloaded JDK and Hadoop, install these files wherever you want but keep in mind the location of these folders.
-
-</aside>
+</aside><br/><br/>
 
 ![Untitled](readme_img/Untitled.png)
 
@@ -36,7 +39,7 @@ Once Hadoop and JDK folders are on your PC, then we'll need to setup some enviro
 
 ![Untitled](readme_img/Untitled%204.png)
 
-### Hadoop Configuration
+## Hadoop Configuration
 
 1. Create these folders:
     - /hadoop/data
@@ -118,16 +121,15 @@ Once Hadoop and JDK folders are on your PC, then we'll need to setup some enviro
 set JAVA_HOME="C:\Program Files\Java\jdk1.8.0_311"
 ```
 
-### Launching Hadoop
+## Launching Hadoop
 
 1. Start a Powershell terminal into the */hadoop/sbin* folder.
 
-<aside>
-⚠️  **Don't forget to run Powershell as an Administrator.**
+<aside><bold>
+⚠️  Don't forget to run Powershell as an Administrator.
+    </bold></aside><br/><br/>
 
-</aside>
-
-1. Launch these commands:
+2. Launch these commands:
 
 ```powershell
 hdfs namenode -format
@@ -147,7 +149,7 @@ If you want to check if all of these commands worked and are working, then launc
 jps
 ```
 
-## Useful Links
+# Useful Links
 
 [HDFS Commands - GeeksforGeeks](https://www.geeksforgeeks.org/hdfs-commands/)
 
