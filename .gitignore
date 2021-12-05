@@ -1,0 +1,5 @@
+data/datanode/current
+data/datanode/in_use.lock
+data/namenode/current
+data/namenode/in_use.lock
+tmp_nm
